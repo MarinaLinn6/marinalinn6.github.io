@@ -1,5 +1,6 @@
 menu {
     /* padding: 30px; */
+    padding-top: 2.3vh;
 }
 
 a {
@@ -9,7 +10,7 @@ a {
 }
 
 #bar{
-    font-size: 1.25vh;
+    font-size: 1.5vh;
     color: rgb(80, 80, 80);
     /* margin-left: 82vw; */
 }
@@ -19,7 +20,6 @@ h1{
 }
 
 body {
-    margin-top: 2.3vh;
     margin-left: 3.3vw;
     margin-right: 3.3vw;
     color: rgb(97, 96, 96);
@@ -33,6 +33,7 @@ body {
 
 #menubar{
     /* margin-left: 4vw; */
+    padding-top: 2.3vh;
 }
 
 title {
@@ -46,8 +47,8 @@ img{
 
 
 #mfooter{
-    margin-top: 100px;
-    margin-bottom: 10vh;
+    margin-top: 3vh;
+    margin-bottom: 4vh;
 
 }
 hr{
@@ -55,28 +56,33 @@ hr{
     margin-bottom: 2vh;
 }
 
-#name1{
-    display: flex;
-    font-size: 3vw;
+#name1{ 
+    font-size: 5vw;
     
-    margin-left: 85vw;
+    /* margin-right: 3vw; */
     font-weight: 600;
 }
 
 #name2 {
-    font-size: 2vw;
-    margin-left: 92vw;
+    font-size: 4vw;
+    /* margin-left: 92vw; */
     font-weight: 600;
 
 }
 
 #email{
-    padding-top: 2vh;
-    font-size: 1vw;
-    margin-left: 82vw;
+    padding-top: 3vh;
+    font-size: 3vw;
+    color: rgb(80, 80, 80);
+    /* margin-left: 82vw; */
 }
 
 footer{
     padding-bottom: 4vh;
+    padding-right: 4vh;
+}
+
+#end{
+    margin-bottom: 5vh;
 }
 
