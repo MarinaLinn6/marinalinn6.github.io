@@ -38,13 +38,13 @@ body {
 }
 
 #quote{
-    margin-top: 6vh;
+    margin-top: 13vh;
     margin-bottom: 5vh;
 }
 
 @media (max-width: 800px) {
 #quote {
-        margin-top: 10vh;
+        margin-top: 8vh;
         margin-bottom: 5vh;
     }
 }
@@ -55,8 +55,26 @@ body {
 
 }
 img {
-    margin: 5px;
-    width: 80%;
+    /* margin: 5px; */
+    width: 100%;
+}
+
+#pics{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#intro{
+    margin-top: 4vh;
+}
+
+.col-xs-6{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#sep{
+    padding-top: 4vh;
+    padding-bottom: 4vh;
 }
 /* #intro{
     margin-top: 1vh;
