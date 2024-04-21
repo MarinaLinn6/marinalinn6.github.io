@@ -1,0 +1,18 @@
+menu {
+    margin: 100px;
+}
+
+a {
+    scroll-behavior: smooth;
+    font-size: 100px;
+}
+
+body {
+    color: rgb(97, 96, 96);
+    font-family: 'DM Sans', sans-serif;
+}
+
+title {
+    font-size:small;
+}
+
