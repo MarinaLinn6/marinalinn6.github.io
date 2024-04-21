@@ -34,16 +34,52 @@ body {
 #menubar{
     /* margin-left: 4vw; */
     padding-top: 2.3vh;
+
 }
+
+#quote{
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+}
+
+@media (max-width: 800px) {
+#quote {
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+    }
+}
+#firstpage{
+    padding-right: 3vw;
+    margin-bottom: 20vh;
+    font-style: italic;
+
+}
+img {
+    margin: 5px;
+    width: 80%;
+}
+/* #intro{
+    margin-top: 1vh;
+    /* width: 10vw; */
+    /* width: 300px; */
+
+#coord{
+    font-size: 2vw;
+    padding-left: 8vw;
+    padding-top: 3vh;
+ }
+
+ #time{
+    padding-top: 0.5vh;
+    font-size: 2vw;
+        padding-left: 25vw;
+    padding-bottom: 5vh;
+ }
 
 title {
     font-size:small;
 }
-img{
-    margin:10px;
-    margin-bottom: 300px;
-    width: 300px;
-}
+
 
 
 #mfooter{
@@ -70,6 +106,7 @@ hr{
     padding-bottom: 3vh;
 
 }
+
 
 #email{
     /* padding-top: 3vh; */
