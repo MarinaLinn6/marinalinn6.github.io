@@ -1,18 +1,74 @@
 menu {
-    margin: 100px;
+    /* padding: 30px; */
 }
 
 a {
-    scroll-behavior: smooth;
-    font-size: 100px;
+    /* scroll-behavior: smooth; */
+    text-decoration: none;
+    
+}
+#bar{
+    font-size: 1.5vw;
+    color: rgb(80, 80, 80);
+    margin-left: 82vw;
+}
+h1{
+    margin-bottom: 10%;
+    margin-top: 10%;
 }
 
 body {
+    margin-left: 3vw;
+    margin-right: 3vw;
     color: rgb(97, 96, 96);
-    font-family: 'DM Sans', sans-serif;
+    font-family: "EB Garamond", serif;
+}
+
+#moon{
+    margin-top: 2vh;
+    margin-left: 2vw;
+    position: fixed;  
+    color: rgb(91, 91, 91);
 }
 
 title {
     font-size:small;
+}
+img{
+    margin:10px;
+    margin-bottom: 300px;
+    width: 300px;
+}
+
+
+#mfooter{
+    margin-top: 100px;
+    margin-bottom: 10vh;
+
+}
+
+#name1{
+    display: flex;
+    font-size: 3vw;
+    
+    margin-left: 85vw;
+    font-weight: 600;
+}
+
+#name2 {
+    font-size: 2vw;
+    margin-left: 92vw;
+    font-weight: 600;
+
+}
+
+#email{
+    padding-top: 2vh;
+    font-size: 1vw;
+    margin-left: 82vw;
+}
+
+footer{
+    padding-bottom: 4vh;
 }
 
