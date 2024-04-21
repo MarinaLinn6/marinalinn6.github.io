@@ -22,7 +22,7 @@ h1{
 body { 
     color: rgb(97, 96, 96);
     font-family: "EB Garamond", serif;
-}
+ }
 
 #moon{
     position: fixed;  
@@ -76,9 +76,9 @@ img {
     padding-left: 1px;
     padding-right: 0px;
 }
-#verticalimg{
+/* #verticalimg{
     padding-left: 20px;
-}
+} */
 
 .box { 
     height: 12vh;
@@ -182,3 +182,44 @@ footer{
     margin-bottom: 5vh;
 }
 
+
+
+#card{
+    position: relative;
+    transform-style: preserve-3d;
+    width: 60vw;
+    height: 40vh;
+    left: 7vw;
+}
+
+#front{
+    backface-visibility: hidden;
+        position: absolute;
+    top: 0;
+        left: 0;
+        z-index: 1;
+}
+
+
+
+#back{
+    opacity: 50%;
+    position: absolute;
+    top :0;
+    left: 0;
+    text-align: center;
+    transform: rotateY(180deg);
+
+}
+
+#centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+}
+
+#card.active{
+    transform: rotateY(180deg);
+}

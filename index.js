@@ -92,3 +92,11 @@ gsap.to("#horizontal", {
     // rotationt: 360,
     duration: 5,
 });
+
+const card = document.getElementById("card");
+card.addEventListener("click", ()=>{
+    card.classList.toggle("active")
+    console.log("clickkkkkk haha testing plz tell me you see this :))) love to hear from uu")
+})
+
+ 
