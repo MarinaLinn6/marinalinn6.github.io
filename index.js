@@ -77,7 +77,7 @@ gsap.to("#horizontal", {
         toggleActions: "restart pause reverse pause",
         scrub: 1
     },
-    y: 50,
+    y: 100,
     // rotationt: 360,
     duration: 5,
 });
