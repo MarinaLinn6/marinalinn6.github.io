@@ -73,8 +73,8 @@ img {
     padding-right: 2px;
 }
 #sep{
-    padding-top: 4vh;
-    padding-bottom: 4vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 /* #intro{
     margin-top: 1vh;
@@ -82,16 +82,22 @@ img {
     /* width: 300px; */
 
 #coord{
-    font-size: 2vw;
+    font-size: 4vw;
     padding-left: 8vw;
     padding-top: 3vh;
  }
 
  #time{
     padding-top: 0.5vh;
-    font-size: 2vw;
+    font-size: 3vw;
         padding-left: 25vw;
     padding-bottom: 5vh;
+ }
+
+ #verticaltime{
+    font-size: 4vw;
+        padding-left: 10vw;
+        padding-top: 15vh;
  }
 
 title {
