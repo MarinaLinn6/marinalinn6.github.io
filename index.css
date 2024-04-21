@@ -59,15 +59,21 @@ img {
 
 #pics{
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 1px;
 }
 
+
 #intro{
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 
 .col-xs-6{
-    padding-left: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.col-xs-6 #picsr {
+    padding-left: 1px;
     padding-right: 0px;
 }
 #verticalimg{
@@ -90,6 +96,9 @@ img {
     /* width: 10vw; */
     /* width: 300px; */
 
+    #headline{
+     padding-bottom: 5vh;
+    }
 #coord{
     font-size: 4vw;
      padding-top: 3vh;
@@ -113,6 +122,11 @@ img {
     font-size: 4vw;
      padding-left: 13vw;
         /* padding-top: 5vh; */
+ }
+
+ #verticaltimeLeft{
+    font-size: 4vw;
+    padding-left: 7vw;
  }
  
  #verticaltime1 .row{
