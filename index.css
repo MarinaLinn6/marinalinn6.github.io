@@ -70,7 +70,18 @@ img {
 
 .col-xs-6{
     padding-left: 2px;
-    padding-right: 2px;
+    padding-right: 0px;
+}
+#verticalimg{
+    padding-left: 20px;
+}
+
+.box { 
+    height: 8vh;
+    width: 40vw;
+    /* margin-bottom: 15px; */
+    background-color:rgb(255, 255, 255);
+    /* clear: both; */
 }
 #sep{
     padding-top: 5vh;
@@ -98,9 +109,15 @@ img {
 
  #verticaltime{
     font-size: 4vw;
-        padding-left: 13vw;
-        padding-top: 5vh;
+     padding-left: 13vw;
+        /* padding-top: 5vh; */
  }
+ 
+ #verticaltime1 .row{
+    font-size: 4vw; 
+    padding-left: 5vw;
+ }
+ 
 
 title {
     font-size:small;
