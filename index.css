@@ -225,7 +225,9 @@ footer{
 }
 
 #gif{
-    width: 20vw;
-   padding-top: 10vw;
-   padding-left: 20vw;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 20vw; */
 }
