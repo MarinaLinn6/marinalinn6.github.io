@@ -93,6 +93,9 @@ img {
         padding-left: 25vw;
     padding-bottom: 5vh;
  }
+ #horizontal{
+    padding-top: 1.5vh;
+ }
 
  #verticaltime{
     font-size: 4vw;

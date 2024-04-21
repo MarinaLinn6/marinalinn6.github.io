@@ -56,3 +56,15 @@ gsap.to("#verticaltime", {
     duration:5,
 });
 
+
+gsap.registerPlugin(ScrollTrigger);
+gsap.to("#horizontal", {
+    scrollTrigger: {
+        trigger: "#horizontal", // start the animation when ".box" enters the viewport (once)
+        toggleActions: "restart pause reverse pause",
+        scrub: 1
+    },
+    y: 50,
+    // rotationt: 360,
+    duration: 5,
+});
