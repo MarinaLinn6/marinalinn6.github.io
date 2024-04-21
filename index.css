@@ -223,3 +223,9 @@ footer{
 #card.active{
     transform: rotateY(180deg);
 }
+
+#gif{
+    width: 70vw;
+   padding-top: 10vw;
+   padding-left: 27vw;
+}
