@@ -65,7 +65,7 @@ img {
 }
 
 #intro{
-    margin-top: 4vh;
+    margin-top: 7vh;
 }
 
 .col-xs-6{
@@ -83,14 +83,13 @@ img {
 
 #coord{
     font-size: 4vw;
-    padding-left: 8vw;
-    padding-top: 3vh;
+     padding-top: 3vh;
  }
 
  #time{
     padding-top: 0.5vh;
     font-size: 3vw;
-        padding-left: 25vw;
+        padding-left: 20vw;
     padding-bottom: 5vh;
  }
  #horizontal{
