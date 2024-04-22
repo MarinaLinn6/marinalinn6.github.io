@@ -100,7 +100,8 @@ img {
      padding-bottom: 5vh;
     }
 #coord{
-    font-size: 4vw;
+    padding-left: 1vh;
+    font-size: 3.5vw;
      padding-top: 3vh;
  }
  .row{
@@ -110,7 +111,7 @@ img {
 
  #time{
     padding-top: 0.5vh;
-    font-size: 3vw;
+    /* font-size: 3vw; */
         padding-left: 20vw;
     padding-bottom: 5vh;
  }
@@ -192,6 +193,22 @@ footer{
     left: 7vw;
 }
 
+#cardhorizontal{
+    position: relative;
+        transform-style: preserve-3d;
+        width: 91vw;
+        height: 30vh;
+        left: 1vw;
+}
+
+#card2{
+    position: relative;
+        transform-style: preserve-3d;
+        width: 60vw;
+        height: 30vh;
+        /* left: 1vw; */
+}
+
 #front{
     backface-visibility: hidden;
         position: absolute;
@@ -203,7 +220,7 @@ footer{
 
 
 #back{
-    opacity: 50%;
+    /* opacity: 50%; */
     position: absolute;
     top :0;
     left: 0;
@@ -211,16 +228,32 @@ footer{
     transform: rotateY(180deg);
 
 }
+#back img{
+    opacity: 50%;
+}
 
 #centered {
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(0, 0, 0);
+    color: rgb(79, 79, 79);
+    text-decoration: none;
+}
+
+#centered a{
+    color: rgb(109, 109, 109);
 }
 
 #card.active{
+    transform: rotateY(180deg);
+}
+
+#card2.active {
+    transform: rotateY(180deg);
+}
+
+#cardhorizontal.active{
     transform: rotateY(180deg);
 }
 
@@ -230,4 +263,12 @@ footer{
     align-items: center;
     justify-content: center;
     /* padding-left: 20vw; */
+}
+
+#horizontalpiccoord{
+    padding-top: 3vh;
+}
+
+#horizontalpictime {
+    padding-top: 1vh;
 }
